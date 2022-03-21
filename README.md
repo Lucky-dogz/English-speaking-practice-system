@@ -9,5 +9,5 @@ https://talkwithyou.serveirc.com/
  NLP SpeechBrain https://github.com/speechbrain/speechbrain.  
  Gramformer https://github.com/PrithivirajDamodaran/Gramformer.  
  
->Successfully use docker to package and push to heroku, but heroku memory is not enough to load the APP. 
+>Successfully use docker to package and push to heroku, but heroku memory is not enough to load the NLP APP. 
 >![image](https://github.com/zhouchenyu000/Chunteng_WorkContent/blob/main/demo.JPG)
