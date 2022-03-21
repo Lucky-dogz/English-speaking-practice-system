@@ -2,7 +2,7 @@
 
 This system hopes to help Taiwanese strengthen their oral English   
 
-Demo web：  
+Website Demos：  
 https://talkwithyou.serveirc.com/  
   
  Technology used: Python Flask Line-bot RESTful-API pytorch css html javascript DNS.  
