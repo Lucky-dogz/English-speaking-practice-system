@@ -24,8 +24,8 @@ from func import aac2wav, text2audio,speechbrain_model,gramformer_model,grammar_
 import os
 app = Flask(__name__)
 
-line_bot_api = LineBotApi('bnqb6WhZRf8gDmBuDbsyZGpviCyukR/gmXe2x0J2mjjYcu3dwSebqgfrlpMclUskZF89CONQYLRRsRruMj/uFJ4X6L9WHAaa2CteiFsxu3L7lw/A3MtRM4mPqUN24Kl+uD5h8TQO72/5ll+YjMpONgdB04t89/1O/w1cDnyilFU=')
-handler = WebhookHandler('3f808f7c1457987cc5e99aa8c501b32a')
+line_bot_api = LineBotApi('')#your token
+handler = WebhookHandler('')#your secret key
 domain='' #your url
 
 @app.route("/callback", methods=['POST'])
