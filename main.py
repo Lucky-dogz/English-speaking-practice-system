@@ -30,14 +30,9 @@ domain='' #your url
 
 @app.route("/callback", methods=['POST'])
 def callback():
-    # get X-Line-Signature header value
     signature = request.headers['X-Line-Signature']
-
-    # get request body as text
     body = request.get_data(as_text=True)
     app.logger.info("Request body: " + body)
-
-    # handle webhook body
     try:
         handler.handle(body, signature)
     except InvalidSignatureError:
@@ -77,7 +72,7 @@ def handle_message(event):
         if (len(audio_text)<=240):
             line_bot_api.reply_message(event.reply_token,result)
         else:
-            line_bot_api.reply_message(  # 回復傳入的訊息文字
+            line_bot_api.reply_message(
             event.reply_token,
             TextSendMessage(text='The Line official regulation max-size is 240 characters'),
             )
@@ -85,14 +80,14 @@ def handle_message(event):
 @handler.add(MessageEvent, message=TextMessage)
 def handle_message(event):
     if event.message.text == "Start":
-        line_bot_api.reply_message(  # 回復傳入的訊息文字
+        line_bot_api.reply_message(
             event.reply_token,
             TextSendMessage(
                 text="Welcome to chat with you, please use the microphone to say something, Line officially stipulates a maximum of 240 characters, the program running time is 30 seconds, if the waiting time is too long after speaking,please try again"
             ),
         )
     elif event.message.text == "incorrect":
-        line_bot_api.reply_message(  # 回復傳入的訊息文字
+        line_bot_api.reply_message(
             event.reply_token,
             TextSendMessage(text="Please listen to the demonstration after written the correct content."),
         )
