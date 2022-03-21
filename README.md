@@ -1,4 +1,5 @@
-# SiteProject_TalkWithYou
+# SiteProject_TalkWithYou  
+This system hopes to help Taiwanese strengthen their oral English  
 Demo web：  
 https://talkwithyou.serveirc.com/  
   
