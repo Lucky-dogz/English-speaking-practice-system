@@ -1,6 +1,6 @@
 # SiteProject_TalkWithYou   
 
-This system hopes to help Taiwanese strengthen their oral English   
+Using LINE Bot (Flask) as the framework, the API functions of the back-end are connected in series, and the data is processed and sent back to the front-end.   
 
 Website Demos：  
 https://talkwithyou.serveirc.com/  
