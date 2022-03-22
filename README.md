@@ -5,7 +5,7 @@ Using LINE Bot (Flask) as the framework, the API functions of the back-end are c
 Website Demos：  
 https://talkwithyou.serveirc.com/  
   
- Technology used: Python Flask Line-bot RESTful-API pytorch css html javascript DNS Docker Heroku.  
+ Technology used: Python / Flask / Line-bot / RESTful-API / pytorch / css / html / javascript  / DNS / Docker / Heroku.  
  NLP SpeechBrain https://github.com/speechbrain/speechbrain.  
  Gramformer https://github.com/PrithivirajDamodaran/Gramformer.  
 
