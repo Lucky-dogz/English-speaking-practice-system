@@ -1,6 +1,7 @@
 # SiteProject_TalkWithYou   
 
-Using LINE Bot (Flask) as the framework, the API functions of the back-end are connected in series, and the data is processed and sent back to the front-end.   
+The original intention is to practice oral English, using LINE Bot(Flask) as the framework to identify the user's record, if the sound
+file is correct, the grammar will be recognized. If it is not correct,you can listen to the demonstration.   
 
 Website Demos：  
 https://talkwithyou.serveirc.com/  
