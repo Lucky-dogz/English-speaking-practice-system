@@ -1,7 +1,6 @@
 # SiteProject_TalkWithYou   
 
-The original intention is to practice oral English, using LINE Bot(Flask) as the framework to identify the user's record, if the sound
-file is correct, the grammar will be recognized. If it is not correct,you can listen to the demonstration.   
+The original intention is to practice oral English, using LINE Bot(Flask) as the framework to identify the user's record, if correct, the grammar will be recognized. If it is not correct,you can listen to the demonstration.   
 
 Website Demo：  
 https://talkwithyou.serveirc.com/  
