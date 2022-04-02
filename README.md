@@ -5,7 +5,7 @@
 範例網站：  
 https://talkwithyou.serveirc.com/  
   
- Technology used: Python / Flask / Line-bot / RESTful-API / pytorch / css / html / javascript  / DNS / Docker / Heroku.  
+練習技術: Python / Flask / Line-bot / RESTful-API / pytorch / css / html / javascript  / DNS / Docker / Heroku.  
  NLP SpeechBrain https://github.com/speechbrain/speechbrain.  
  Gramformer https://github.com/PrithivirajDamodaran/Gramformer.  
 
